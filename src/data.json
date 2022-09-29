@@ -1,0 +1,66 @@
+{
+    "formTitle": "Test Title",
+    "modifiedDate": "2022-09-17T11:11:39.7259572Z",
+    "ownerName": "Siddiqur Tareq",
+    "sections": [
+
+        {
+            "title": "test section 1",
+            "questions": [
+                {
+                    "title": "Full Name",
+                    "type": "Input",
+                    "isMultiLine": true
+
+                },
+                {
+                    "title": "Email address",
+                    "type": "Input",
+                    "placeholder": "example@example.com"
+                },
+                {
+                    "title": "radio selection",
+                    "type": "Radio",
+                    "choices" : [
+                        "Choice One", 
+                        "Choice two", 
+                        "Choice three", 
+                        "Choice four"
+
+                    ]
+                }, 
+                {
+                    "title": "Subscribed to",
+                    "type": "Checkbox",
+                    "choices" : [
+                        "Email Notifications", 
+                        "Phone Call ", 
+                        "SMS", 
+                        "Newsletters"
+
+                    ]
+                }, 
+                {
+                    "title": "Country",
+                    "type": "Options",
+                    "choices" : [
+                        "Choice One", 
+                        "Choice two", 
+                        "Choice three", 
+                        "Choice four"
+
+                    ]
+                }, 
+                {
+                    "title": "Additional Information",
+                    "type": "TextField",
+                    "isMultiLine": true
+                }
+
+            ]
+
+        }
+    ]
+
+
+}
