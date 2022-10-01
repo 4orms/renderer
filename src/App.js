@@ -44,13 +44,11 @@ function App() {
                       switch (question.type) {
                         case "TextField":
                           return (
-                          <TextBox inputLabelTitle={question.title} 
-                          label={question.title.replaceAll(' ', "_")}/>)
-                          
+                          <TextBox inputLabelTitle={question.title} label={question.title}/>)
                           case "Input":
                             return (
                             <InputBox inputLabelTitle={question.title} placeholder={question.placeholder}
-                            label={question.title.replaceAll(' ', "_")}/>)
+                            label={question.title}/>)
                           case "Checkbox":
                             return (
                               <CheckBox inputLabelTitle={question.title} options={question.choices}/>

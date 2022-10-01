@@ -2,6 +2,7 @@ import {useFormRegister } from "../../context/formRegisterContext"
 
 export default function InputBox({inputLabelTitle, label, placeholder}){
   const register = useFormRegister();
+  label = label.replaceAll(' ', "_")
 
     return (<div className="mt-10">
       <label 

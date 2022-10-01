@@ -20,8 +20,9 @@ export default function CheckBox({inputLabelTitle, options}){
                     id={`optionItem-${optionItem}`}
                     name={`optionItem-${optionItem}`}
                     type="checkbox"
+                    value={`${optionItem}`}
                     className="h-4 w-4 rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
-                    {...register(`${optionItem}`)}
+                    {...register(`${inputLabelTitle}`)}
                   />
                 </div>
               </div>

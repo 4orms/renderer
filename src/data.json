@@ -8,17 +8,20 @@
             "title": "test section 1",
             "questions": [
                 {
+                    "id": 1,
                     "title": "Full Name",
                     "type": "Input",
                     "isMultiLine": true
 
                 },
                 {
+                    "id": 2,
                     "title": "Email address",
                     "type": "Input",
                     "placeholder": "example@example.com"
                 },
                 {
+                    "id": 3,
                     "title": "radio selection",
                     "type": "Radio",
                     "choices" : [
@@ -30,6 +33,7 @@
                     ]
                 }, 
                 {
+                    "id": 4,
                     "title": "Subscribed to",
                     "type": "Checkbox",
                     "choices" : [
@@ -39,8 +43,9 @@
                         "Newsletters"
 
                     ]
-                }, 
+                },
                 {
+                    "id": 4,
                     "title": "Country",
                     "type": "Options",
                     "choices" : [
@@ -52,6 +57,7 @@
                     ]
                 }, 
                 {
+                    "id": 4,
                     "title": "Additional Information",
                     "type": "TextField",
                     "isMultiLine": true

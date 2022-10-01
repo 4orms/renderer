@@ -7,7 +7,7 @@ export default function CheckBox({inputLabelTitle, options}){
         <div className="mt-10">
         
       <label htmlFor="location" className="block text-lg font-medium text-gray-900">
-        {options.title}
+        {inputLabelTitle}
       </label>
       <select
         id="location"

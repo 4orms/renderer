@@ -13,7 +13,8 @@ export default function RadioBox({inputLabelTitle, options}){
                 <div key={itemIdx} className="flex items-center">
                   <input
                     id={itemIdx}
-                    name="notification-method"
+                    name={inputLabelTitle}
+                    value={`${optionItem}`}
                     type="radio"
                     className="h-4 w-4 border-gray-300 text-indigo-600 focus:ring-indigo-500"
                     {...register(`${inputLabelTitle}`)}
